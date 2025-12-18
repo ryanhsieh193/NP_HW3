@@ -87,51 +87,34 @@ python main_client.py
 
 1. Switch back to Developer (Terminal 3).
 2. Select `3. Upload/Update Project`
-
 3. Enter the path for Version 1.1 (Extreme Edition):Plaintext
 4. games/guess_num_v2
 Result: Upload success. (Server checks version: 1.1.0 > 1.0.0).
-
 5. Switch back to Player.
-
 6. Go to `3. View game store`
-
 7. You should see: `1. Guess Number (v1.1.0) - [Update v1.1.0]`
-
 8. Try to Play without Updating (Soft Lock Test):
-
 9. Go to Room -> Try to Ready.
 Result: System detects version mismatch and asks: `Update now? (y/n)`.
-
 10. Select `y` to update.
-
 11. Start Game.
 Result: Game window title now shows `"Guess Number v1.1 (EXTREME)"`
 
 ### Scenario D: Reviews & Ratings
 
 1. On Player Client, go to `3. View game store`.
-
 2. Select the game to view details.
-
 3. You will see the Description, Author, and Rating.
-
 4. Select `2. Write a Review`.
-
 5. Enter `Rating (1-5)` and a `Comment`.
-
 6. Result: The review appears immediately in the details page.
 
 ### Scenario E: Multiplayer (Invitation & Tetris)
 
 1. You can launch **3+ separate main_client.py instances**.
-
 2. P1: Create Room -> 2. Invite player (Invite P2 and P3).
-
 3. P2 & P3: Main Menu -> 6. Manage invitations -> Accept.
-
 4. All: Ready -> Start.
-
 5. Result: Tetris game launches. You will see 2 small opponent boards on the right side if 3 players are playing.
 
 ### Scenario F: Delete Game (Developer Only)
